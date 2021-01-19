@@ -33,5 +33,3 @@ jobs:
       - name: Push to S3
         run: |
           aws s3 cp target/spring-petclinic-2.4.0.BUILD-SNAPSHOT.jar s3://iac-demo-artifactory/
-
-      - name: Push to ECR
